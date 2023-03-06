@@ -1,0 +1,1 @@
+{"version":3,"file":"build-reqest.js","sourceRoot":"","sources":["../../src/message-builder/build-reqest.ts"],"names":[],"mappings":";;;AAEA,SAAgB,YAAY,CAAC,OAAY,EAAE,EAAE,YAAoB,EAAE,SAAkB;IACnF,OAAO;QACL,MAAM,EAAE,IAAI;QACZ,YAAY;QACZ,IAAI;QACJ,KAAK,EAAE,IAAI;QACX,SAAS,EAAE,SAAS,IAAI,IAAI;KAC7B,CAAC;AACJ,CAAC;AARD,oCAQC"}

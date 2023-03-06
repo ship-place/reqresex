@@ -1,0 +1,1 @@
+{"version":3,"file":"build-response.js","sourceRoot":"","sources":["../../src/message-builder/build-response.ts"],"names":[],"mappings":";;;AAAA,sCAAwD;AAExD,SAAgB,aAAa,CAAC,OAAY,EAAE,EAAE,SAAkB;IAC9D,OAAO;QACL,MAAM,EAAE,wBAAe,CAAC,OAAO;QAC/B,IAAI;QACJ,KAAK,EAAE,IAAI;QACX,SAAS,EAAE,SAAS,IAAI,SAAS;KAClC,CAAC;AACJ,CAAC;AAPD,sCAOC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"build-warn.js","sourceRoot":"","sources":["../../src/message-builder/build-warn.ts"],"names":[],"mappings":";;;AAAA,sCAAwD;AAExD,SAAgB,SAAS,CAAC,IAAY,EAAE,OAA2B,EAAE,SAAkB;IACrF,OAAO;QACL,MAAM,EAAE,wBAAe,CAAC,IAAI;QAC5B,IAAI,EAAE,IAAI;QACV,KAAK,EAAE;YACL,IAAI;YACJ,OAAO;SACR;QACD,SAAS,EAAE,SAAS,IAAI,SAAS;KAClC,CAAC;AACJ,CAAC;AAVD,8BAUC"}
