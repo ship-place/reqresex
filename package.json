@@ -10,7 +10,7 @@
     "prepare": "exit 0",
     "prepublishOnly": "yarn test && yarn lint",
     "preversion": "yarn lint",
-    "version": "yarn format && yarn tsc && git add -A src lib",
+    "version": "yarn format && yarn tsc && git add -A",
     "postversion": "git push && git push --tags"
   },
   "repository": {
