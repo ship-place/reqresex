@@ -1,14 +1,15 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { IMsMessage } from './@types';
+import { defaultReqresexOptions, ReqresexOptions } from './@types/interfaces/optionst.interface';
 import * as msgBuilder from './message-builder';
 
 @Injectable()
 export class ReqresexService {
   private readonly logger = new Logger(ReqresexService.name);
-  private name: string;
+  private options: ReqresexOptions;
 
-  constructor(name?: string) {
-    this.name = name || 'service';
+  constructor(options: Partial<ReqresexOptions>) {
+    this.options = Object.assign({}, defaultReqresexOptions, options);
     this.logger.log('Service Init');
   }
 
@@ -17,14 +18,14 @@ export class ReqresexService {
   }
 
   buildResponse(data: any = ''): IMsMessage<any> {
-    return msgBuilder.buildResponse(data, this.name);
+    return msgBuilder.buildResponse(data, this.options.serviceName);
   }
 
   buildWarn(code: number, message?: string | string[]): IMsMessage<null> {
-    return msgBuilder.buildWarn(code, message, this.name);
+    return msgBuilder.buildWarn(code, message, this.options.serviceName);
   }
 
   buildError(code: number, message?: string | string[]): IMsMessage<null> {
-    return msgBuilder.buildError(code, message, this.name);
+    return msgBuilder.buildError(code, message, this.options.serviceName);
   }
 }
